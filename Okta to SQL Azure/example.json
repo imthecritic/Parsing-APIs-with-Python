@@ -1,0 +1,143 @@
+[
+   {
+   "eventId":"tevGr2BhQTMR72OiBGvKXTp2Q1399593071000",
+   "published":"2014-05-08T23:51:11.000Z",
+   "requestId":"req8U_MHmEbSai_0I4RopTnfA",
+   "sessionId":"000cWiYg47QSFyk1YjE6cDcEg",
+   "action":{
+      "message":"Okta user created",
+      "categories":[
+         "User Creation"
+      ],
+      "objectType":"core.user.config.user_creation.success",
+      "requestUri":"Background"
+   },
+   "actors":[
+      {
+         "id":"00ue1aWYUCUFFKXLXELW",
+         "displayName":"Add-Min O'Cloudy Tud",
+         "login":"administrator1@clouditude.net",
+         "objectType":"User"
+      },
+      {
+         "id":"Jakarta Commons-HttpClient/3.1",
+         "displayName":"UNKNOWN",
+         "ipAddress":"",
+         "objectType":"Client"
+      }
+   ],
+   "targets":[
+      {
+         "id":"00ue1gAKBMCSWHRZYDJS",
+         "displayName":"Inca-Louise O'Rain Dum",
+         "login":"inca@clouditude.net",
+         "objectType":"User"
+      }
+   ]
+
+},
+    {
+        "eventId": "tev8hc_KK9NRzKe2WtdvVQIOg1384845263000",
+        "published": "2013-11-19T07:14:23.000Z",
+        "action": {
+            "message": "App activated",
+            "categories": [],
+            "objectType": "app.generic.config.app_activated",
+            "requestUri": "/api/v1/apps/0oadxaKUTKAXSXUZYJHC/lifecycle/activate"
+        },
+        "actors": [
+            {
+                "id": "00upgyMVOKIYORVNYUUM",
+                "displayName": "Adam Malkovich",
+                "login": "adam.malkovich@example.com",
+                "objectType": "User"
+            },
+            {
+                "id": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36",
+                "displayName": "CHROME",
+                "ipAddress": "192.168.1.100",
+                "objectType": "Client"
+            }
+        ],
+        "targets": [
+            {
+                "id": "0oadxaKUTKAXSXUZYJHC",
+                "displayName": "Salesforce.com",
+                "objectType": "AppInstance"
+            }
+        ]
+    },
+    {
+        "eventId": "tevaEByjeq-QZW-utKgDVVvng1384847185000",
+        "published": "2013-11-19T07:46:25.000Z",
+        "action": {
+            "message": "Sign-in successful",
+            "categories": [
+                "Sign-in Success"
+            ],
+            "objectType": "core.user_auth.login_success",
+            "requestUri": "/login/do-login"
+        },
+        "actors": [
+            {
+                "id": "00ubgaSARVOQDIOXMORI",
+                "displayName": "Samus Aran",
+                "login": "samus.aran@example.com",
+                "objectType": "User"
+            },
+            {
+                "id": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36",
+                "displayName": "CHROME",
+                "ipAddress": "10.10.10.10",
+                "objectType": "Client"
+            }
+        ],
+        "targets": [
+            {
+                "id": "00ubgaSARVOQDIOXMORI",
+                "displayName": "Samus Aran",
+                "login": "samus.aran@example.com",
+                "objectType": "User"
+            }
+        ]
+    },
+    {
+        "eventId": "tevR26HuMJMSkWsKBUcQ65Raw1384847190000",
+        "published": "2013-11-19T07:46:30.000Z",
+        "action": {
+            "message": "User performed single sign on to app",
+            "categories": [
+                "Application Access"
+            ],
+            "objectType": "app.auth.sso",
+            "requestUri": "/app/salesforce/kdx9PWYBPEOBAUNVRBHK/sso/saml"
+        },
+        "actors": [
+            {
+                "id": "00ubgaSARVOQDIOXMORI",
+                "displayName": "Samus Aran",
+                "login": "samus.aran@example.com",
+                "objectType": "User"
+            },
+            {
+                "id": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36",
+                "displayName": "CHROME",
+                "ipAddress": "10.10.10.10",
+                "objectType": "Client"
+            }
+        ],
+        "targets": [
+            {
+                "id": "00ubgaSARVOQDIOXMORI",
+                "displayName": "Samus Aran",
+                "login": "samus.aran@example.com",
+                "objectType": "User"
+            },
+            {
+                "id": "0oadxaKUTKAXSXUZYJHC",
+                "displayName": "Salesforce.com",
+                "objectType": "AppInstance"
+            }
+        ]
+    }
+]
