@@ -1,0 +1,54 @@
+{
+  "pipelines": [
+    {
+      "name": "New Issues",
+      "issues": [
+        {
+          "issue_number": 279,
+          "estimate": {
+            "value": 40
+          },
+          "position": 0
+        },
+        {
+          "issue_number": 142
+        }
+      ]
+    },
+    {
+      "name": "Backlog",
+      "issues": [
+        {
+          "issue_number": 303,
+          "estimate": {
+            "value": 40
+          },
+          "position": 3
+        }
+      ]
+    },
+    {
+      "name": "To Do",
+      "issues": [
+        {
+          "issue_number": 380,
+          "estimate": {
+            "value": 1
+          },
+          "position": 0
+        },
+        {
+          "issue_number": 284,
+          "position": 2
+        },
+        {
+          "issue_number": 329,
+          "estimate": {
+            "value": 8
+          },
+          "position": 7
+        }
+      ]
+    }
+  ]
+}
